@@ -1,0 +1,47 @@
+/* universal selctor */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Element selctor */
+
+h1{
+    color: blueviolet;
+}
+
+p{
+    color: grey;
+}
+
+
+/* ID selector */
+
+#para{
+    color: magenta;
+}
+
+#para{
+    color: green;
+}
+/* Class selctor */
+
+.spcl{
+    color: blue;
+}
+
+/* id> class >element */
+
+
+/* Attribute selctor */
+
+a{
+    color: green;
+}
+
+a[href="https://facebook.com/"]{
+    color: brown;
+}
+
+
+/* id> class> attribute selector  >element > universal*/

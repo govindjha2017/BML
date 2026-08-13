@@ -1,0 +1,29 @@
+/* universal selector */
+*{
+
+}
+
+
+/* Element selctor */
+p{
+    color: aqua;
+}
+
+div{
+    color: blue;
+}
+
+/* id selctor */
+
+#para{
+    color: yellow;
+}
+
+
+ /* class selctor */
+
+.spcl{
+    color: red;
+}
+
+/* id> class > element > universal*/

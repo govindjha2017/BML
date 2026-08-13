@@ -1,0 +1,61 @@
+
+
+/* ID > CLASS > ELEMENT > UNIVERSAL */
+
+/* #link{
+    color: yellow;
+    text-decoration: none;
+} */
+
+.abc{
+    color: aquamarine;
+}
+
+/* Attribute selector */
+
+/* a[href="https://facebook.com/"]{
+    color: brown;
+    text-decoration: none;
+} */
+
+
+/* id > Attributr selctor >class > element > universal */
+
+
+/* descendent selctor */
+
+div p{
+    color: blueviolet;
+}
+
+
+div .para{
+    color: green;
+    text-decoration: line-through;
+}
+
+
+p.spcl{
+    color: magenta;
+}
+
+
+/* pseudo class */
+
+/* LVHA */
+
+a:link{
+    color: grey;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: red;
+}

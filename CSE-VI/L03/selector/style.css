@@ -1,0 +1,59 @@
+
+
+/* .para{
+    color: red;
+} */
+
+/* 
+p{
+    color: blue;
+} */
+
+/* 
+p.para{
+    color: brown;
+} */
+
+
+div#abc{
+    color: magenta;
+}
+
+
+/* pseudo class */
+
+
+/* a{
+    color: green;
+} */
+
+/* LVHA */
+
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+
+}
+
+a:active{
+    color: red;
+}
+ 
+
+
+/* #spcl{
+    color: yellow;
+} */
+
+
+div p.para{
+    color: yellow;
+}

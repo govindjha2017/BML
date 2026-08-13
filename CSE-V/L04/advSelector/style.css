@@ -1,0 +1,34 @@
+
+/* descendent selctor */
+
+div p{
+    color: magenta;
+}
+
+div.para{
+    color: greenyellow;
+}
+
+
+div p.para{
+    color: brown;
+
+}
+
+
+/* pseudo class */
+
+/* LVHA */
+
+a:link{
+   color: black;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+   color: yellow;
+}
+a:active{
+    color: red;
+}

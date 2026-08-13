@@ -1,0 +1,9 @@
+/* descendent selector */
+
+div p{
+    color: blueviolet;
+}
+
+div.para{
+    color: red;
+}
