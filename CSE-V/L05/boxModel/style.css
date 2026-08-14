@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+p{
+    border: 20px solid red;
+    border: 5px dotted green;
+    border: 2px dashed red;
+
+    border: 5px solid red;
+
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-right: 0px;
+
+    padding: 15px 0px 10px 20px;
+    padding: 10px 20px;
+    padding: 10px;
+
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    margin: 10px 20px 30px 40px;
+    margin: 20px 5px;
+    margin: 30px;
+
+    width: 400px;
+    margin: 10px auto;
+}
