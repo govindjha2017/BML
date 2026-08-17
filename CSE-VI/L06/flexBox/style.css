@@ -1,0 +1,53 @@
+.child{
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+}
+
+.container{
+    /* height: 70vh; */
+    border: 2px solid red;
+    display: flex;
+
+    /* flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+
+    /* align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center; */
+
+    /* flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+    /* gap: 20px;
+    gap: 20px 40px; */
+
+    gap: 10px;
+}
+
+
+.child4{
+    order: -3;
+}
+
+.child3{
+    order: -1;
+    flex-shrink: 3;
+}
+
+.child6{
+    order: 4;
+}
+
+.child8{
+    order: 2;
+}
