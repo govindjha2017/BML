@@ -1,0 +1,82 @@
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid green;
+    position: relative;
+    /* animation-name: anime;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-fill-mode: forwards; */
+
+
+    animation-name: changePos;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    /* animation-iteration-count: 3; */
+    animation-iteration-count: infinite;
+    /* animation-direction: normal; */
+    /* animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse; */
+
+    animation-delay: 3s;
+    /* animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: linear; */
+    animation-timing-function: cubic-bezier(0.85, 2.29, 0,-1.94);
+}
+
+@keyframes changePos{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        left: 300px;
+        top: 0;
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+    50%{
+        left: 300px;
+        top: 300px;
+        background-color: brown;
+        border-radius: 0;
+    }
+    75%{
+        left: 0;
+        top: 300px;
+        background-color: green;
+        border-radius: 50%;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        background-color: blue;
+        border-radius: 0;
+    }
+}
+
+@keyframes anime{
+    /* from{
+        left: 0;
+    }
+    to{
+        left: 400px;
+        border-radius: 50%;
+    } */
+
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 200px;
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+    100%{
+        left: 400px;
+        border-radius: 0;
+    }
+}
