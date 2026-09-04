@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 400px;
+    width: 100vw;
+    border: 2px solid red;
+    background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
+    background-size: cover;
+    background-position: 0 -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.para{
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+}
+
+.a{
+    height: 50px;
+    border: 1px solid green;
+    margin: 20px auto;
+    width: 60vw;
+}
+
+.b{
+    background-color: black;
+    height: 100%;
+    width: 85%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
